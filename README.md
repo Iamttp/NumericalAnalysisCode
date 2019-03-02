@@ -22,3 +22,24 @@
 
 > 最终结果：
 >   xc =  0.68233
+
+#### 事实验证1 Stewart平台运动学
+
+> Stewart平台运动学
+
+> 参数意义：
+> p1\p2\p3为臂长
+> v\L1\L2\L3定义三角形的形状(等腰直角）
+> x1/x2/y2定义支杆位置
+
+> 使用方法：
+> theta = -pi:0.05:pi;
+> fx = f(theta);
+> plot(theta,fx)
+> grid on
+
+> 结果：
+> 解为pi/4和-pi/4
+
+![avatar](f.png)
+![avatar](f3.png)
