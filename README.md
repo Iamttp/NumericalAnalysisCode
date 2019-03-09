@@ -1,4 +1,8 @@
 # 数值分析 Matlab/Octave代码
+
+> 验证平台：https://octave-online.net/
+> 编写平台：Ubuntu VSCode
+> 参考书籍：Numerical Analysis(Second Edition) Timothy Sauer
 ## 第0章 基础知识（nest.m）
 #### 程序0.1 嵌套乘法：
 * 使用霍纳方法计算
@@ -52,8 +56,8 @@
 ```
     解为pi/4和-pi/4
 ```
-![avatar](f.png)
-![avatar](f3.png)
+![avatar](picture/f.png)
+![avatar](picture/f3.png)
 
 ## 第2章 方程组 (Euler_Bernoulli.m)
 
@@ -70,6 +74,13 @@
     y = nest(2,c,x,x0)
     plot(x0,y0,'o',x,y)
 ```
-![avatar](newtdd.png)
+![avatar](picture/newtdd.png)
 
+## 第4章 最小二乘  (test.m)
 
+#### 程序4. 抛物线拟合
+* 调用示例
+```
+    直接运行test.m
+```
+![avatar](picture/test.png)
