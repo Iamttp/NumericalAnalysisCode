@@ -1,6 +1,6 @@
 % 程序3.2 多项式插值程序
 % 鼠标点击图形窗口定位
-% ！！！应使用的网上Octave，故未验证
+% ！！！因使用的网上Octave，故未验证
 
 function clickinterp
 xl = -3;xr = 3;yb = -3;yt = 3;
